@@ -24,8 +24,8 @@ import (
 	"github.com/uber/tchannel-go/thrift"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
-	"github.com/jaegertracing/jaeger/examples/hotrod/services/driver/thrift-gen/driver"
+	"hotrod/pkg/log"
+	"hotrod/services/driver/thrift-gen/driver"
 )
 
 // Client is a remote client that implements driver.Interface
